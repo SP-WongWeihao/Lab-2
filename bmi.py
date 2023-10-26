@@ -15,3 +15,7 @@ def check_bmi_range(bmi):
 
 print(str(calculate_bmi(weight=57, height=1.73)))
 
+
+
+
+
