@@ -21,6 +21,7 @@ def calc_min_max(list):
     return min_num,max_num
 
 def calc_median_temperature(list):
+    list.sort()
     if ((len(list)) % 2) != 0:
         median = list[int((len(list)-1)/2)]
         return median
