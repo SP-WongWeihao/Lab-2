@@ -3,8 +3,6 @@ def calculate_bmi(height, weight):
     print("Weight = " + str(weight))
     bmi = weight/(height*height)
     return check_bmi_range(bmi)
-
-
 def check_bmi_range(bmi):
     print(bmi)
     if(bmi < 18.5):
@@ -17,7 +15,7 @@ def check_bmi_range(bmi):
         print("Over Weight")
         return 1
 
-print(str(calculate_bmi(weight=57, height=1.73)))
+#calculate_bmi(weight=57, height=1.73)
 
 
 
